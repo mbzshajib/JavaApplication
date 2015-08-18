@@ -1,9 +1,11 @@
 package com.mbzshajib.designpatterns.adapter;
 
 /**
- * Created by Shajib on 8/18/2015.
+ * Created by Zaman Shajib
+ * Creation Date : 8/18/2015
+ * Project Name : JavaApplication
  */
-public class MainClass {
+public class AdapterPatternTestMain {
     public static void main(String[] args) {
         System.out.println("Adapter Pattern Testing.");
     }
