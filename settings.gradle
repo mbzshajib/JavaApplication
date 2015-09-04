@@ -1,5 +1,10 @@
 rootProject.name = 'JavaApplication'
 
 include(':DesignPattern')
+include(':Annotation')
+include(':Generic')
 
-project(':DesignPattern').projectDir = "$rootDir/DesignPattern" as File
+
+project(':DesignPattern').projectDir = "$rootDir/Source/DesignPattern" as File
+project(':Annotation').projectDir = "$rootDir/Source/Annotation" as File
+project(':Generic').projectDir = "$rootDir/Source/Generic" as File
