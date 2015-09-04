@@ -1,4 +1,5 @@
 rootProject.name = 'JavaApplication'
 
-include 'DesignPattern'
+include(':DesignPattern')
 
+project(':DesignPattern').projectDir = "$rootDir/DesignPattern" as File
